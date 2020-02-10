@@ -1,0 +1,158 @@
+/* Commun des Pages */
+header{
+    display: flex;
+}
+html{
+    margin-right: auto;
+    background: linear-gradient(rgba(202, 202, 202, 0.993), rgba(173, 105, 105, 0.993));
+}
+body{
+    margin: 2vw;
+    background: linear-gradient(rgba(202, 202, 202, 0.993), rgba(173, 105, 105, 0.993));
+}
+#pagecentrale{
+    background-color:  rgba(243, 241, 241, 0.993);
+    padding: 1vw 1vw 1vw;
+    border-radius: 20px;
+    border: 2px black solid;
+    margin-top: 1vw;
+    box-shadow: 3px 3px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Promo{
+    width:  100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow: black 3px 3px;
+}
+#Logo{
+    cursor: pointer;
+    margin-top: 3vw;
+    max-width: 42vw;
+    height: auto;
+}
+#titre1{
+    padding-left: 10%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4vw;
+}
+/* Barre de Navigation */
+.menu{
+    padding-right: 10vw;
+    padding-left: 10vw;
+    color: black;
+    font-weight: bolder;
+}
+#barre{
+    border:2px solid black;
+    background-image: url(../img/legume.jpg);
+    border-radius: 20px;
+    box-shadow: 3px 3px;
+}
+nav{
+    font-size: 35px;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    text-shadow: white 3px 3px;
+}
+/* Barre de Mention */
+#mention{
+    background-color: white;
+    padding: 10px;
+}
+.Mention{
+    font-family: Arial, Helvetica, sans-serif;
+    color: deepskyblue;
+    text-align: center;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+#barremention{
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(243, 241, 241, 0.993);
+    padding: 1vw;
+    border: 2px black solid;
+    box-shadow: black 3px 3px;
+}
+
+/* Page Accueil */
+h1{
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#colonne{
+    float: right; 
+    height: auto;
+}
+.para{
+    width: 65%;
+}
+#imgpelle{
+    max-width: 250px;
+    height: auto;
+}
+.devis{
+    padding: 0vw 2vw 2vw 0vw;
+}
+/* Page Tableau */
+td{
+    border: black 2px solid;
+}
+#photobrouette{
+    max-width: 9vw;
+    height: auto;
+}
+.phototable{
+    max-width: 9vw;
+    height: auto;
+}
+.headtable{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+}
+.bobytable{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+#table{
+  /* bordure tab */
+    border-width: 2px; 
+    border-style:solid; 
+    border-color:black;
+    width:70%;
+    border-radius: 10px;
+    margin: 0% 15% 0% 15%;
+    text-align: center;
+}
+
+/* Page Contact */
+fieldset{
+    width: 70%;
+    font-size: 100%;
+    border-radius: 10px;
+}
+form{
+    margin-left: 5%;
+
+}
+.bouton{
+    border-radius: 5px;
+    margin: 1vw;
+    font-size: 100%;
+}
+#zone{
+    margin-left: 3vw;
+    font-size: 90%;
+}
+.legends{
+    font-size: 100%;
+    font-weight: bold;
+}

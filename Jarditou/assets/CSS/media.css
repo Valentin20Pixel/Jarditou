@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 150%;
+    }
+    .titre {
+        font-size: 110%;
+    }
+    #imgpelle {
+        width: 0%;
+        height: 0%;
+    }
+    .menu {
+        display: block;
+    }
+    .headtable {
+        font-size: 110%;
+    }
+    .bobytable {
+        font-size: 100%;
+    }
+    #table {
+        margin: inherit;
+    }
+    form {
+        font-size: 100%;
+    }
+    .bouton {
+        font-size: 110%;
+    }
+    .menu {
+        font-size: 110%;
+    }
+    .para {
+        display: inline;
+    }
+}
